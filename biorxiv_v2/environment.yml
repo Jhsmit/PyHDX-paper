@@ -1,0 +1,35 @@
+name: py38_biorxiv_v2
+channels:
+  - defaults
+  - pyviz
+  - pytorch
+  - conda-forge
+dependencies:
+  - _pytorch_select=0.1=cpu_0
+  - biopython=1.78=py38h294d835_1
+  - blas=1.0=mkl
+  - bokeh=2.2.3=py38haa244fe_0
+  - dask=2021.2.0=pyhd8ed1ab_0
+  - dask-core=2021.2.0=pyhd8ed1ab_0
+  - distributed=2021.2.0=py38haa244fe_0
+  - hdxrate=0.2.0=pyhd8ed1ab_0
+  - matplotlib-base=3.3.4=py38h34ddff4_0
+  - numpy=1.20.1=py38h0cc643e_0
+  - numba=0.53.0=py38hf11a4ad_0
+  - pandas=1.2.2=py38h4c96930_0
+  - pbr=5.5.1=py_0
+  - proplot=0.6.4=py_0
+  - pymol-open-source=2.4.0=py38h12185f3_4
+  - python=3.8.5=h5fd99cc_1
+  - pytorch=1.6.0=cpu_py38h538a6d7_0
+  - tqdm=4.57.0=pyhd8ed1ab_0
+  - scikit-image=0.18.1=py38h4c96930_0
+  - scipy=1.6.0=py38h5f893b4_0
+  - setuptools=52.0.0=py38haa95532_0
+  - symfit=0.5.3=py38haa244fe_1
+  - sympy=1.7.1=py38haa244fe_1
+  - yaml=0.2.5=he774522_0
+  - pip
+  - pip:
+    - pycorrelate
+
