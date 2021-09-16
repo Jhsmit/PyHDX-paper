@@ -1,0 +1,15 @@
+ecSecB_NMR.pdb
+PDB entry: 5JTR, DOI: 10.2210/pdb5JTR/pdb
+paper DOI: 10.1038/nature18965
+
+SecA_monomer.pdb
+PDB entry: 2VDA, DOI: 10.2210/pdb2VDA/pdb
+paper DOI: 10.1016/j.cell.2007.09.039
+
+ecSecB_mtSecB_aligned.pse
+pymol align of
+ecSecB (PDB 5JTR)
+and
+mtSecB (PDB 5MTW, DOI: 10.2210/pdb5MTW/pdb)
+paper DOI: 10.1038/s41467-019-08747-4
+
