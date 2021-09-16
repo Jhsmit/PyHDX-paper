@@ -4,15 +4,14 @@ from functions.base import current_dir, input_data_dir, data_dict, states
 from pyhdx.local_cluster import default_cluster, default_client
 from pyhdx.fitting import fit_rates_weighted_average
 from pyhdx.batch_processing import yaml_to_hdxm
-
+from dask.distributed import Client
 
 write_log(__file__)
 output_dir = current_dir / 'guesses'
 output_dir.mkdir(exist_ok=True)
 
 if __name__ == '__main__':
-    default_cluster()
-    client = default_client()
+    client = Client()
     print(client)
 
     info_dir = current_dir / 'info'
