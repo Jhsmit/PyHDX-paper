@@ -11,7 +11,7 @@ input_data_dir = root_dir / 'data'
 current_dir = root_dir / 'anal_chem'
 fitresults_dir = current_dir / 'fitresults'
 
-yaml_stream = (root_dir / 'datasets.yaml').read_text()
+yaml_stream = (root_dir / 'datasets_b3.yaml').read_text()
 data_dict = yaml.safe_load(yaml_stream)
 
 settings_stream = yaml_stream = (current_dir / 'settings.yaml').read_text()
