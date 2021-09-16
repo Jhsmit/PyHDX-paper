@@ -39,4 +39,4 @@ Running
 =======
 
 Run the numbered python scripts in order to run PyHDX analysis. 
-Next run 0x_run_all_clusters to generate all figures.
+Next run 0x_run_all_figures to generate all figures.
